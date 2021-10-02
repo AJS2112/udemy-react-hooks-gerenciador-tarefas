@@ -7,7 +7,7 @@ describe('Testes do componente cadastrar tarefa', () => {
 
     it('deve renderizar o componente sem erro', () => {
         const div = document.createElement('div');
-        render(<CadastrarTarefa />), div;
+        render(<CadastrarTarefa />, div);
     });
 
     it('deve cadastrar uma nova tarefa', () => {
