@@ -1,7 +1,6 @@
 import React from "react";
 import Pagination from 'react-bootstrap/Pagination';
 import PropTypes from 'prop-types';
-import { propTypes } from "react-bootstrap/esm/Image";
 
 function Paginacao(props) {
 
