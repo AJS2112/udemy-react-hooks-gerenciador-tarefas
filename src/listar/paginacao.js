@@ -69,7 +69,7 @@ function Paginacao(props) {
         }
 
         items.push(gerarProximoItem(numPaginas));
-        itens.push(gerarUltimoItem(numPaginas));
+        items.push(gerarUltimoItem(numPaginas));
         return items;
     }
 
