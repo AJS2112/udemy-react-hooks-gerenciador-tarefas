@@ -76,7 +76,7 @@ function AtualizarTarefa(props) {
                         <Form.Control.Feedback type="invalid">A tarefa deve conter al menos 5 caracteres</Form.Control.Feedback>
                     </Form.Group>
                     <Form.Group className="text-center">
-                        <Button variant="success" type="submit" data-textid="btn-atualizar">Atualizar</Button>
+                        <Button variant="success" type="submit" data-testid="btn-atualizar">Atualizar</Button>
                         &nbsp;
                         <A href="/" className="btn btn-light" onClick={handleVoltar}>Voltar</A>
                     </Form.Group>
